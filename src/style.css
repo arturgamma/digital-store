@@ -1,0 +1,37 @@
+/* styles.css */
+
+body {
+    background-color: white; /* Cor de fundo leve */
+    font-family: Arial, sans-serif; /* Fonte personalizada */
+}
+
+h1 {
+    color: #007bff; /* Cor azul do Bootstrap */
+}
+
+.custom-button {
+    background-color: white; /* Verde */
+    color: white;
+}
+
+#Header, #Footer{
+    display: flex;
+}
+
+#Header {
+    background-color: white;
+    padding-top: 56px;
+}
+#Footer {
+    background-color: #666666;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#logo-footer {
+    position: absolute;  
+    bottom: 0;           
+    left: 0;             
+    padding: 10px;    
+    
+  }

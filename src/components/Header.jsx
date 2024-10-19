@@ -3,9 +3,11 @@ import Logo from "./Logo";
 
 const Header = () => {
     return ( 
-        <div>
-        <Logo />
-        </div>
+        <header id="Header" className="navbar navbarexpand-lg fixed-top" >
+            <div className="container-fluid" >
+                <Logo />
+            </div>
+        </header>
      );
         
 }

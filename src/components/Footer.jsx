@@ -1,6 +1,13 @@
+import React from "react";
+import LogoFooter from "./LogoFooter";
+
 const Footer = () => {
     return ( 
-        <h2> Footer </h2>
+        <footer id="footer" className="footer fixed-bottom" >
+            <div className="container-fluid" >
+                <LogoFooter />
+            </div>
+        </footer>
      );
 }
  
