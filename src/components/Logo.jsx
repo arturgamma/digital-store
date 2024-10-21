@@ -4,7 +4,7 @@ import logo from '../assets/logo-header.svg'
 const Logo = () => {
     return ( 
         <div>
-            <img src={logo} alt="Digital College" />
+            <img src={logo} alt="Digital College" id="logo-header-custom"/>
         </div>
      );
         

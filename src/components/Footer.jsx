@@ -3,9 +3,13 @@ import LogoFooter from "./LogoFooter";
 
 const Footer = () => {
     return ( 
-        <footer id="footer" className="footer fixed-bottom" >
-            <div className="container-fluid" >
-                <LogoFooter />
+        <footer  className="footer text-light py-4 mt-auto w-100 logo-footer-custom" >
+            <div className="container text-center" >
+                <div className="row">
+                    <div className="col">
+                        <LogoFooter />
+                    </div>    
+                </div>
             </div>
         </footer>
      );

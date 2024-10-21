@@ -4,11 +4,11 @@ import Header from "../components/Header";
 
 const Layout = ({children}) => {
     return ( 
-        <>
+        <div id="body">
             <Header />
-            {children}
+            {/* <main className="flex-grow-1">{children}</main> */}
             <Footer />
-        </>    
+        </div>    
      );
 }
  
