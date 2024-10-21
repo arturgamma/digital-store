@@ -13,10 +13,12 @@ const Header = () => {
                         <input type="text" placeholder="Pesquisar produto..." className="navbar input-custom" />
                         <LogoIcon />
                     </div>    
-                </div>       
-                <a href="#" style={{color:"#8F8F8F"}} id="search-icon-custom">
-                    Cadastre-se
-                </a>
+                </div>   
+                <div>    
+                    <a href="#" style={{color:"#8F8F8F"}} >
+                        Cadastre-se
+                    </a>
+                </div>    
                 <ShoppingCart />
             </div>
         </header>
